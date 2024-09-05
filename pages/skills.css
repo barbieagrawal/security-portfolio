@@ -1,0 +1,214 @@
+.developer_skills .text-blk {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    line-height: 25px;
+  }
+  
+  .developer_skills .responsive-container-block {
+    min-height: 75px;
+    height: fit-content;
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    justify-content: flex-start;
+  }
+  
+  .developer_skills .responsive-container-block.bg {
+    max-width: 1500px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    padding-right: 10px;
+    padding-bottom: 80px;
+    padding-left: 10px;
+  }
+  
+  .developer_skills .responsive-container-block.line {
+    min-height: 51px;
+    width: 2px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-color: white;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  
+  .developer_skills .text-blk.title {
+    font-size: 50px;
+    line-height: 34.1px;
+    font-weight: 700;
+    color: #6249ad;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+  }
+  
+  .developer_skills .responsive-container-block.card {
+    width: 30%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 41px;
+    padding-right: 10px;
+    padding-bottom: 31px;
+    padding-left: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-color: white;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: white;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: white;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    max-width: 350px;
+  }
+  
+  .developer_skills .responsive-container-block.img1 {
+    width: 58px;
+    min-height: 58px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    background-image: url("https://www.testingshastra.com/wp-content/uploads/2024/03/MERN-Stack-Development.webp");
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+  }
+
+  .developer_skills .responsive-container-block.img2 {
+    width: 58px;
+    min-height: 58px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4babGJAGndp4ua2LGxI207z_5bjXjiatPRA&s");
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+  }
+
+  .developer_skills .responsive-container-block.img3 {
+    width: 58px;
+    min-height: 58px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    background-image: url("https://www.dataprise.com/wp-content/uploads/bb-plugin/cache/Managed-Cybersecurity-square-square-square-47c2f400d2752b9ea8fbabab5bd152f7-8tp31hok6mvb.png");
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+  }
+  
+  .developer_skills .text-blk.desc {
+    font-size: 20px;
+    line-height: 27.28px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+  }
+  
+  .developer_skills .text-blk.info {
+    font-size: 20px;
+    line-height: 27.28px;
+    color: white;
+    text-align: center;
+  }
+  
+  .developer_skills .responsive-container-block.content {
+    justify-content: space-evenly;
+    width: auto;
+  }
+  
+  .developer_skills .responsive-container-block.card:hover {
+    border-top-color: #6249ad;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: #6249ad;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: #6249ad;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: #6249ad;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    transform: scale3d(1.03);
+    box-shadow: 0 0 25px #6249ad;
+  }
+  
+  @media (max-width: 768px) {
+    .developer_skills .text-blk.heading {
+      font-size: 32px;
+      line-height: 44px;
+    }
+  
+    .developer_skills .responsive-container-block.card {
+      width: 44%;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 30px;
+      margin-left: 0px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .developer_skills .responsive-container-block.card {
+      width: 100%;
+    }
+  }
