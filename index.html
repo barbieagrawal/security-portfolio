@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Barb</title>
+    <!-- Typed.js Library -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </head>
 <body>
     <header>
         <a href="#" class="logo">Barb</a>
         <nav>
             <a href="#" class="active"> Home</a>
-            <a href="pages/skills.html" >Skills</a>
-            <a href="pages/education.html" >Education</a>
-            <a href="pages/projects.html" >Projects</a>
-            <a href="pages/contact.html" >Contact</a>
+            <a href="pages/skills.html">Skills</a>
+            <a href="pages/projects.html">Projects</a>
+            <a href="pages/contact.html">Contact</a>
         </nav>
     </header>
     <section class="home">
@@ -25,8 +25,8 @@
         </div>
         <div class="home-content">
             <h1>Hi, It's <span>Barb</span></h1>
-            <h3 class="typing-text">I'm a <span></span></h3>
-            <p>I'm a security enthusiast with a passion for ethical hacking, cybersecurity, front-end web development, and designing. I enjoy solving complex problems and building secure, scalable applications. Currently, I’m diving deep into Cloud technologies, Devops, and Security. </p>
+            <h3>I am a <span class="multiple-text"></span></h3> <!-- Dynamic Text -->
+            <p>I'm a security enthusiast with a passion for ethical hacking, cybersecurity, front-end web development, and designing. I enjoy solving complex problems and building secure, scalable applications. Currently, I'm diving deep into Cloud technologies, DevOps, and Security.</p>
             <div class="social-icons">
                 <a href="https://www.linkedin.com/in/barbie-agrawal-profile/"><i class="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/barbieagrawal"><i class="fa-brands fa-github"></i></a>
@@ -35,5 +35,15 @@
             <a href="https://drive.google.com/file/d/1qKNNMyp1TQ-jH6kR6r3rn8xxFilVsOEv/view?usp=drive_link" class="btn">My Resume</a>
         </div>
     </section>
+    <!-- Typed.js Script -->
+    <script>
+        var typed = new Typed(".multiple-text", {
+            strings: ["Cybersec Enthusiast", "Programmer", "Front-End Developer", "Web Designer", "Computer Science Graduate"],
+            typeSpeed: 60,
+            backSpeed: 80,
+            backDelay: 1000,
+            loop: true
+        });
+    </script>
 </body>
 </html>
